@@ -21,28 +21,28 @@ const Footer = () => {
         <div>
             <FooterContainer>
                 <FooterElement>
-                    <FooterCard>
+                    <FooterCard className="firstCard">
                         <FooterH2>About Us</FooterH2>
                         <FooterP>How it works</FooterP>
                         <FooterP>Testimonies</FooterP>
                         <FooterP>Carrers</FooterP>
                         <FooterP>Investors</FooterP>
                     </FooterCard>
-                    <FooterCard>
+                    <FooterCard className="secondCard">
                         <FooterH2>Contact Us</FooterH2>
                         <FooterP>Contact</FooterP>
                         <FooterP>Support</FooterP>
                         <FooterP>Fax</FooterP>
                         <FooterP>Destinations</FooterP>
                     </FooterCard>
-                    <FooterCard>
+                    <FooterCard className="thirdCard">
                         <FooterH2>Video</FooterH2>
                         <FooterP>Submit Video</FooterP>
                         <FooterP>Influencer</FooterP>
                         <FooterP>Demo</FooterP>
                         <FooterP>Services</FooterP>
                     </FooterCard>
-                    <FooterCard>
+                    <FooterCard className="fourthCard">
                         <FooterH2>Social Media</FooterH2>
                         <FooterP>Instagram</FooterP>
                         <FooterP>Facebook</FooterP>

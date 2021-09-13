@@ -1,11 +1,16 @@
 import React, {useState} from 'react'
 import Footer from '../components/Footer'
 import Navbar from '../components/Navbar'
-import TestimonyPage from '../components/TestimonyPage'
+import AboutPage from '../components/AboutPage'
 import Sidebar from '../components/SideBar'
-import MyApi from '../components/MyApi/'
+import Swipers from '../components/Swipers'
+import {One, Two, Three} from '../components/AboutPage/data'
+import AboutContent from '../components/AboutContent'
 
-const Testimony = () => {
+
+
+
+const About = () => {
     const [isOpen, setIsOpen] = useState(false)
     const toggle = () => {
         setIsOpen(!isOpen);
@@ -14,12 +19,15 @@ const Testimony = () => {
         <div>
             <Sidebar isOpen={isOpen} toggle={toggle}/>
             <Navbar toggle={toggle} />
-            <TestimonyPage />
-            <MyApi/>
+            <AboutContent />
+            <AboutPage  {...One}/>
+            <AboutPage  {...Two} />
+            <AboutPage  {...Three} />
+            <Swipers />
             <Footer />
         </div>
     )
 }
 
-export default Testimony;
+export default About;
 

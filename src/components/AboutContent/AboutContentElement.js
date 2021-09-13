@@ -1,69 +1,43 @@
-import styled from 'styled-components'
+import styled from "styled-components";
 
-export const LandingContainer = styled.div`
-    height: 700px;
-    margin-top: 60px;
-    display: flex;
+export const AboutContainer = styled.div`
+margin-top: 80px;
+`
+export const AboutWrapper = styled.div`
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-areas: 
+        "Col1 Col2";
 
-    @media only screen and (min-width: 1100px) and (max-width: 1350px) {
-        height: 700px;
-    }
-    @media only screen and (min-width: 900px) and (max-width: 1100px) {
-        height: 600px;
-    }
-    @media only screen and (min-width: 768px) and (max-width: 900px) {
-        height: 600px;
-    }
+        @media only screen and (max-width: 600px) {
+            grid-template-columns: 1fr;
+            grid-template-rows: 1.5fr 1.5fr;
+            grid-template-areas: 
+            "Col2"
+            "Col1"
+            ;
+        }
+`
+
+export const Col1 = styled.div`
+    grid-area: Col1;
+    padding: 6rem 0 0 6rem;
     @media only screen and (max-width: 600px) {
-        grid-template-columns: 1fr;
-        grid-template-rows: 1.5fr 1.5fr;
-        display: grid;
-        grid-template-areas: 
-        "LandingRight"
-        "LandingLeft"
-        ;
-        height: 685px;
+        padding: 3rem 2rem 2rem 4rem;
     }
 `
-export const LandingLeft = styled.div`
-    width: 35%;
-    padding: 150px 15px 0 100px;
-    grid-area: LandingLeft;
 
-    @media only screen and (min-width: 1100px) and (max-width: 1350px) {
-        padding: 140px 15px 0 90px;
-    }
-    @media only screen and (min-width: 900px) and (max-width: 1100px) {
-        padding: 130px 10px 0 80px;
-    }
-    @media only screen and (min-width: 768px) and (max-width: 900px) {
-        padding: 120px 5px 0 65px;
-    }
+export const Col2 = styled.div`
+    grid-area: Col2;
     @media only screen and (max-width: 600px) {
-        grid-area: LandingLeft;
-        margin-left: 2rem;
-        height: 16rem;
-        width: 25rem;
-        margin-top: 2rem;
-        padding: 0px 0px 0 0px;
-    }
-    
-`
-export const LandingRight = styled.div`
-    width: 65%;
-    margin-top: 30px;
-    @media only screen and (max-width: 600px) {
-        grid-area: LandingRight;
-        margin-left: 2rem;
-        height: 20rem;
-        width: 25rem;
         
+        padding: 3rem 3rem 2rem 3rem;
     }
-
 `
-export const LandingImg = styled.img`
-    height: 99%;
 
+export const LandingImg = styled.img`
+    height: 98%;
+    width: 100%;
     &:hover{
     
     transition: all 0.2s ease-in-out;
@@ -86,9 +60,6 @@ export const LandingImg = styled.img`
         width: 100%;
         
     }
-    @media only screen and (max-width: 400px) {
-        width: 80%;
-    }
 
 `
 export const LandingH1 = styled.h1`
@@ -105,11 +76,8 @@ export const LandingH1 = styled.h1`
         font-size: 30px;
     }
     @media only screen and (max-width: 600px) {
-        font-size: 26px;  
         
-    }
-    @media only screen and (max-width: 400px) {
-        font-size: 24px; 
+        font-size: 32px;
     }
 
 
@@ -125,14 +93,6 @@ margin-top: 30px;
     }
     @media only screen and (min-width: 768px) and (max-width: 900px) {
         font-size: 14px;
-    }
-    @media only screen and (max-width: 600px) {
-        font-size: 16px;  
-        
-    }
-    @media only screen and (max-width: 400px) {
-        font-size: 14px;  
-        
     }
     
 
@@ -166,9 +126,8 @@ export const LandingButton = styled.button`
         font-size: 14px;
     }
     @media only screen and (max-width: 600px) {
-        padding: 12px; 
-        font-size: 16px;
         
+        padding: 14px;
+        font-size: 18px;
     }
-
 `

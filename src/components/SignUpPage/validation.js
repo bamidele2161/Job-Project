@@ -26,6 +26,9 @@ const validation = (values) => {
     else if (values.password.length < 5) {
         errors.password ="Password is less than five characters"
     }
+    else{
+        alert("account created successfully");
+    }
     return errors;
 }
 

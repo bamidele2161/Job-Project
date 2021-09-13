@@ -39,14 +39,6 @@ const Details = () => {
 
                     <DetailsCard>
                     <SocialIconLink href="/" target="_blank" aria-label="Facebook">
-                                <FaChrome />
-                            </SocialIconLink>
-                        <DetailsH2>Human Research & Development</DetailsH2>
-                        <DetailsP>We help reduce your fees and increase your overall revenue.</DetailsP>
-                    </DetailsCard>
-
-                    <DetailsCard>
-                    <SocialIconLink href="/" target="_blank" aria-label="Facebook">
                                 <FaCodepen />
                             </SocialIconLink>
                         <DetailsH2>Finance Management</DetailsH2>
@@ -63,13 +55,6 @@ const Details = () => {
                         <DetailsP>We help reduce your fees and increase your overall revenue.</DetailsP>
                     </DetailsCard>
 
-                    <DetailsCard>
-                    <SocialIconLink href="/" target="_blank" aria-label="Facebook">
-                                <FaGitAlt />
-                            </SocialIconLink>
-                        <DetailsH2>Business & Consulting</DetailsH2>
-                        <DetailsP>We help reduce your fees and increase your overall revenue.</DetailsP>
-                    </DetailsCard>
 
                     <DetailsCard>
                     <SocialIconLink href="/" target="_blank" aria-label="Facebook">

@@ -1,4 +1,5 @@
 import React from 'react'
+import LoginSuccess from './LoginSuccess';
 
 const validation = (values) => {
 
@@ -10,6 +11,9 @@ const validation = (values) => {
         errors.password = "password is required."
     } else if (values.password.length < 5){
         errors.password = "password must be more than five character"
+    }
+    else{
+        <LoginSuccess />
     }
     return errors;
 }

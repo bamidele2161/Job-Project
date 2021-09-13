@@ -1,7 +1,7 @@
-import React from 'react'
-import { useState } from 'react/cjs/react.development'
-import LoginPage from './index';
-import loginSuccess from './loginSuccess';
+import React, {useState} from 'react'
+import LoginPage from 'index';
+import LoginSuccess from './LoginSuccess';
+
 
 const Form = () => {
     const [formIsSubmitted, setFormIsSubmitted] = useState(false);
@@ -13,7 +13,7 @@ const Form = () => {
             {!formIsSubmitted ? (
                 <LoginPage submitForm={submitForm} />
             ) : (
-                <loginSuccess />
+                <LoginSuccess />
             )}
         </div>
     )

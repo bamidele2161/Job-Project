@@ -126,10 +126,21 @@ export const MobileIcon = styled.div`
         top: 0;
         right: 0;
         transfom: translate(-100%, 60%);
-        font-size: 1.8rem;
+        font-size: 2rem;
         cursor: pointer;
         color: #fff;
         margin-top: 25px;
     }
+    @media only screen and (max-width: 600px) {
+        
+        margin-right: 1rem;
+        font-size: 1.8rem;
+    }
+    @media only screen and (max-width: 400px) {
+        
+        margin-right: 3.5rem;
+        font-size: 1.8rem;
+    }
+    
 `
 

@@ -6,6 +6,9 @@ export const DetailsContainer = styled.div`
     flex-direction: column;
     background-color: #e5e4e2;
     align-items: center;
+    @media only screen and (max-width: 600px) {
+        height: 1200px;
+    }
 
     
     
@@ -17,12 +20,18 @@ export const DetailH1 = styled.div`
     margin-top: 30px;
     text-align: center;
     font-weight: bold;
+    @media only screen and (max-width: 600px) {
+        font-size: 2rem;
+    }
 `
 export const Detail2H1 = styled.div`
     font-size: 2.5rem;
     text-align: center;
     font-weight: bold;
     margin-bottom: 40px;
+    @media only screen and (max-width: 600px) {
+        font-size: 2rem;
+    }
 `
 export const SocialIconLink = styled.a`
     color: #260A81;
@@ -37,10 +46,14 @@ export const DetailsWrapper = styled.div`
     max-width: 1500px;
     margin: 1rem auto;
     display: grid;
-    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-columns: 1fr 1fr 1fr;
     align-items: center;
     grid-gap: 16px;
     padding: 0 50px;
+    @media only screen and (max-width: 600px) {
+        grid-template-columns: 1fr;
+        height: 685px;
+    }
 `
 
 export const DetailsCard = styled.div`
@@ -55,6 +68,7 @@ export const DetailsCard = styled.div`
     box-shadow: 0 1px 3px rgba(0,0,0,0.2);
     transition: all 0.2s ease-in-out;
     margin: 0 20px 5px 20px;
+
 
     &:hover {
         transform: scale(1.02);

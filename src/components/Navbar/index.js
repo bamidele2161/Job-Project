@@ -28,16 +28,14 @@ const Navbar = ({toggle}) => {
                     <NavUl>
                       <Link 
                       
-                      to="/Landing">
+                      to="/home">
                         Home</Link>
                       
                       <Link 
-                       to="/">About</Link>
+                       to="/about">About</Link>
 
-                      <Link 
-                      to="/testimony">Testimonies</Link>
 
-                      <Link  to="/Home">Find</Link>
+                      <Link  to="/find">Find</Link>
                        
                     
                   </NavUl>

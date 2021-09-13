@@ -21,7 +21,7 @@ import {
 import validation from './validation';
 
 
-const LoginPage = (submitForm) => {
+const LoginPage = ({submitForm}) => {
     const [values, setValues] = useState({
         username: "",
         password: "",
@@ -52,11 +52,11 @@ const LoginPage = (submitForm) => {
     },{errors});
 
     //false statement ... needs to be deleted from the code 
-    useState(() => {
-        if(Object.keys(errors).lenth === 0 && dataisCorrect) {
-            submitForm(false);
-        }
-    })
+    // useState(() => {
+    //     if(Object.keys(errors).lenth === 0 && dataisCorrect) {
+    //         submitForm(false);
+    //     }
+    // })
             return (
                 <div>
                     <LoginContainer>
@@ -101,8 +101,8 @@ const LoginPage = (submitForm) => {
                             }}
                             className="error">{errors.password}</p>}
                             <LoginA>forgot password?</LoginA>
-                            <LoginButton onClick={handleFormSubmit}>
-                                <Btn> LOGIN </Btn>
+                            <LoginButton >
+                                <Btn onClick={handleFormSubmit}> LOGIN </Btn>
                             </LoginButton>
                         </LoginForm>
                         <LoginP>Or Sign in Using </LoginP>

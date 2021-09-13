@@ -5,6 +5,7 @@ import Details from '../components/Details'
 import Footer from '../components/Footer'
 import Sidebar from '../components/SideBar'
 import Landing from '../components/Landing'
+import Swipers from '../components/Swipers'
 
 
 const Home = () => {
@@ -18,7 +19,7 @@ const Home = () => {
       <Navbar toggle={toggle} />
       <Landing />
       <Details />
-     
+      <Swipers />
       <Footer />
     </div>
   )

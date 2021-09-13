@@ -6,27 +6,29 @@ import {
     HeroH1,
     Hero2H1,
     HeroP,
-    Search,
-    SearchOne,
-    SearchTwo,
+    Left,
+    Right,
+    SearchImage,
     Button
 } from './HeroElement'
+import image from '../../Images/search.svg';
 
 const HeroSection = () => {
 
     return (
         <div>
             <HeroContainer>
-                <HeroDetails>
-                    <HeroH1>  Get The <span style={{color: "#260A81"}}> Right Job </span></HeroH1>
-                    <Hero2H1>You Deserve</Hero2H1>
-                    <HeroP>This is for searching for available jobs</HeroP>
-                    <Search>
-                        <SearchOne placeholder="Job type"  />
-                        <SearchTwo placeholder="Your city" />
-                        <Button > Search </Button>
-                    </Search>
-                </HeroDetails>
+                <Left className="left">
+                    <HeroDetails>
+                        <HeroH1>  Get The <span style={{color: "#260A81"}}> Right Job </span></HeroH1>
+                        <Hero2H1>You Deserve</Hero2H1>
+                        <HeroP>This is page searching for available jobs</HeroP>
+                        
+                    </HeroDetails>
+                </Left>
+                <Right className="right">
+                    <SearchImage src={image}/>
+                </Right>
             </HeroContainer>
         </div>
     )

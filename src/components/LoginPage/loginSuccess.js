@@ -1,11 +1,13 @@
 import React from 'react'
 
-const loginSuccess = () => {
+const LoginSuccess = () => {
     return (
-        <div>
-            <h1>Account Created!</h1>
+        <div className="container">
+            <div className="app-wrapper">
+                <h1 className="form-success">Account Created!</h1>
+            </div>   
         </div>
     )
 }
 
-export default loginSuccess
+export default LoginSuccess

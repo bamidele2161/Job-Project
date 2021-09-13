@@ -1,5 +1,5 @@
 import React from 'react';
-import image from '../../Images/landing2r.png';
+import image from '../../Images/about.svg';
 import {
     LandingContainer,
     LandingLeft,

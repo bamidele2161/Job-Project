@@ -12,6 +12,10 @@ export const LoginContainer = styled.div`
 export const LoginH1 = styled.h1`
     font-size: 2.3rem;
     color: #260A81;
+    @media only screen and (max-width: 600px) {
+        font-size: 2rem;
+        
+    }
 `
 export const LoginHr = styled.hr`
     font-size: 2.3rem;
@@ -26,6 +30,12 @@ export const LoginForm = styled.form`
     width: 415px;
     padding: 2.5rem;
     box-shadow: 5px 5px 50px 5px #e5e4e2;
+    @media only screen and (max-width: 600px) {
+        width: 300px;
+    }
+    @media only screen and (max-width: 400px) {
+        width: 250px;
+    }
     
     
 `
@@ -39,7 +49,6 @@ export const LoginField= styled.div`
     height: 40px;
     max-width: 400px;
     padding: 0.4rem;
- 
     margin: 1.5rem 0;
     border-radius: 0.5rem;
 
@@ -52,6 +61,10 @@ export const LoginInput = styled.input`
     line-height: 1;
     font-weight: 600;
     outline: none;
+    @media only screen and (max-width: 600px) {
+        font-size: 1rem;
+        
+    }
 `
 export const LoginButton = styled.div`
     justify-content: center;
@@ -82,7 +95,10 @@ export const Btn = styled.button`
         color: #260A81;
         border: solid #260A81;
 }
-
+@media only screen and (max-width: 600px) {
+    font-size: 0.8rem;
+    
+}
     
 `
 export const LoginIcon= styled.div`
@@ -98,6 +114,15 @@ margin-left: 279px;
 cursor: pointer;
 color: #260A81;
 font-weight: bold;
+@media only screen and (max-width: 600px) {
+    margin-left: 164px;
+    
+}
+@media only screen and (max-width: 400px) {
+    margin-left: 140px;
+    font-size: 13px;
+    
+}
 `
 
 export const LoginP= styled.p`
@@ -125,6 +150,10 @@ export const SocialIconLink= styled.i`
         justify-content: center;
         align-items: center;
         padding-top: 0.4rem;
+    }
+    @media only screen and (max-width: 600px) {
+        font-size: 1.6rem;
+        
     }
 
 `
