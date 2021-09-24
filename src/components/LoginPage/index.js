@@ -31,6 +31,7 @@ const LoginPage = ({submitForm}) => {
 
         });
         const [dataisCorrect, setDataIsCorrect] = useState(false);
+        
     const handleChange = (event) => {
         setValues({
             ...values,
@@ -42,6 +43,8 @@ const LoginPage = ({submitForm}) => {
         event.preventDefault();
         setErrors(validation(values));
         setDataIsCorrect(true);
+        
+        
 
     };
 

@@ -34,7 +34,7 @@ export const NoResult = styled.p`
         font-size: 1rem;
         width: 100%;
         margin-top: 0px;
-        border: solid red;
+        
     }
     @media only screen and (max-width: 400px) {
         margin-left: 0rem;
@@ -71,6 +71,11 @@ export const JobImage = styled.h1`
         font-size: 2.5rem;
         height: 60px;
     }
+    @media only screen and (min-width: 1000px) {
+    
+        font-size: 2.8rem;
+        height: 60px;
+    }
 `
 export const JobsWrapper = styled.div`
     max-width: 1600px;
@@ -80,11 +85,9 @@ export const JobsWrapper = styled.div`
     align-items: center;
     grid-gap: 16px;
     padding: 0 50px;
-    border: solid blue;
     margin-top: 5rem;
     @media only screen and (max-width: 1000px) {
         grid-template-columns: 1fr 1fr 1fr;
-        border: solid yellow;
         max-width: 800px;
         grid-gap: 10px;
     }
@@ -96,6 +99,11 @@ export const JobsWrapper = styled.div`
     @media only screen and (max-width: 600px) {
         grid-template-columns: 1fr;
         grid-gap: 6px;
+    }
+    @media only screen and (min-width: 1000px) {
+        grid-gap: 10px;
+
+        
     }
 `
 
@@ -114,21 +122,22 @@ export const JobsCard = styled.div`
         cursor: pointer;
     }
     @media only screen and (max-width: 1000px) {
-        border: solid red;
+        
         width: 180px;
         height: 270px;
     }
     @media only screen and (max-width: 800px) {
 
-        border: solid blue;
+        
         width: 180px;
         height: 250px;
     }
-    @media only screen and (min-width: 800px) {
+    @media only screen and (min-width: 1000px) {
 
-        border: solid orange;
+        
         width: 180px;
-        height: 250px;
+        height: 280px;
+        
     }
 `
 export const JobsIcon = styled.img`
@@ -144,7 +153,7 @@ export const JobSalary = styled.p`
     padding-left: 1rem;
     @media only screen and (max-width: 1000px) {
         
-        border: solid red;
+        
         font-size: 12px;
         padding-left: 0.8rem;
     }
@@ -157,22 +166,22 @@ export const JobsP = styled.p`
     padding-left: 1rem;
     @media only screen and (max-width: 1000px) {
         
-        border: solid red;
+    
         font-size: 0.8rem;
         padding-left: 0.8rem;
     }
 `
 
 export const JobsH2 = styled.h2`
-    font-size: 1.2rem;
+    font-size: 1.0rem;
     margin: 5px 5px 5px 0px;
     padding-left: 1rem;
     @media only screen and (max-width: 1000px) {
         
-        border: solid red;
         font-size: 1rem;
         padding-left: 0.8rem;
     }
+    
 `
 
 export const JobApply = styled.a`
@@ -195,12 +204,11 @@ export const JobApply = styled.a`
     }
     @media only screen and (max-width: 1000px) {
         font-size: 0.8rem;
-        border: solid red;
+       
         padding: 7px;
     }
     @media only screen and (max-width: 800px) {
         font-size: 0.6rem;
-        border: solid red;
         padding: 5px;
     }
 `

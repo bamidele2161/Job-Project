@@ -10,10 +10,10 @@ const Form = () => {
     };
     return (
         <div>
-            {!formIsSubmitted ? (
-                <LoginPage submitForm={submitForm} />
-            ) : (
+            {formIsSubmitted ? (
                 <LoginSuccess />
+            ) : (
+                <LoginPage submitForm={submitForm} />
             )}
         </div>
     )

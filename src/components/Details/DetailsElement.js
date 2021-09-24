@@ -35,7 +35,7 @@ export const Detail2H1 = styled.div`
 `
 export const SocialIconLink = styled.a`
     color: #260A81;
-    font-size: 24px;
+    font-size: 28px;
 
     &:hover{
         color: white;
@@ -63,12 +63,12 @@ export const DetailsCard = styled.div`
     justify-content: flex-start;
     align-items: center;
     border-radius: 10px;
-    max-height: 130px;
+    max-height: 150px;
     padding: 30px;
+    height: 100px;
     box-shadow: 0 1px 3px rgba(0,0,0,0.2);
     transition: all 0.2s ease-in-out;
     margin: 0 20px 5px 20px;
-
 
     &:hover {
         transform: scale(1.02);
@@ -87,11 +87,11 @@ export const DetailsIcon = styled.img`
 `
 
 export const DetailsP = styled.p`
-    font-size: 0.7rem;
+    font-size: 0.8rem;
     text-align: center;
 `
 
 export const DetailsH2 = styled.h2`
-    font-size: 0.8rem;
+    font-size: 1rem;
     margin-bottom: 5px;
 `
