@@ -62,8 +62,11 @@ export const LandingRight = styled.div`
 
 `
 export const LandingImg = styled.img`
-    height: 99%;
-
+    height: 97%;
+    animation-name: plate-sit;
+    animation-duration: 3s;
+    animation-iteration-count: infinite;
+    animation-timing-function: ease-in-out;
     &:hover{
     
     transition: all 0.2s ease-in-out;
@@ -89,6 +92,15 @@ export const LandingImg = styled.img`
     @media only screen and (max-width: 400px) {
         width: 80%;
     }
+    
+
+
+@keyframes plate-sit {
+    
+    0%{ transform: translate(0, 0px);}
+    50%{ transform: translate(0, 15px);}
+    100%{ transform: translate(0, -0px);}
+}
 
 `
 export const LandingH1 = styled.h1`

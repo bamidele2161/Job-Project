@@ -27,6 +27,7 @@ export const AboutWrapper = styled.div`
 export const Col1 = styled.div`
     padding: 0 15px;
     grid-area: Col1;
+    
 
 
 `
@@ -44,7 +45,7 @@ export const TextWrapper = styled.div`
     transition: all 0.2s ease-in-out;
     box-shadow: ${({lightShadow}) => (lightShadow ? '5px 5px 50px 5px #f9f9f9' : '5px 5px 50px 5px #e5e4e2')};
     max-width: 540px;
-    padding: 4rem 4rem 6rem 4rem;
+    padding: 4rem 4rem 4rem 4rem;
     border-radius: 3rem;
     @media only screen and (max-width: 600px) {
         margin: 4rem 2rem 2rem 2rem;
@@ -83,11 +84,11 @@ export const TopLine = styled.p`
 `
 export const Heading = styled.h1`
         margin-bottom: 24px;
-        font-size: 48px;
+        font-size: 40px;
         line-height: 1.1;
         font-weight: 600;
         color: ${({lightText}) => 
-        (lightText ? '#fff' : '#010606')};
+        (lightText ? '#000000' : '#010606')};
         @media only screen and (max-width: 600px) {
             font-size: 36px;
         }
@@ -96,11 +97,11 @@ export const Heading = styled.h1`
 
 export const Subtitle = styled.p`
 max-width: 440px;
-margin-bottom: 35px;
-font-size: 22px;
+margin-bottom: 20px;
+font-size: 20px;
 line-height: 24px;
 color: ${({darkText}) => 
-        (darkText ? '#010606' : '#fff')};
+        (darkText ? '#010606' : '#000000')};
         @media only screen and (max-width: 600px) {
             font-size: 20px;
         }

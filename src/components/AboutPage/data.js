@@ -4,9 +4,9 @@ import img2 from '../../Images/developer.svg'
 export const One = {
     imgStart: true,
     topLine: 'Find Work',
-    headLine: 'Unlimited Transactions with zero fees',
+    headLine: 'Apply for jobs for free',
     description: 
-    "Get access to our about UK jobs.",
+    "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
     buttonLabel: 'Get started',
     img: img,
     lightBg: false,
@@ -19,9 +19,9 @@ export const One = {
 export const Two = {
     imgStart: false,
     topLine: 'Find Work',
-    headLine: 'Unlimited Transactions with zero fees',
+    headLine: 'Sign up for free to search for Uk Jobs',
     description: 
-    "Fo update on available UK jobs, Subscribe to our page.",
+    "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua..",
     buttonLabel: 'Sign Up',
     img: img1,
     lightBg: true,
@@ -34,9 +34,9 @@ export const Two = {
 export const Three = {
     imgStart: true,
     topLine: 'Find Work',
-    headLine: 'Unlimited Transactions with zero fees',
+    headLine: 'Login for Easy Search',
     description: 
-    "Bammy offers a powerful suite of tools that every job seekers must check, If you get stuck, the support team will help you out.",
+    "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
     buttonLabel: 'Get started',
     img: img2,
     lightBg: false,

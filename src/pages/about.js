@@ -21,8 +21,6 @@ const About = () => {
             <Navbar toggle={toggle} />
             <AboutContent />
             <AboutPage  {...One}/>
-            <AboutPage  {...Two} />
-            <AboutPage  {...Three} />
             <Swipers />
             <Footer />
         </div>

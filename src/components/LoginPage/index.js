@@ -82,7 +82,7 @@ const LoginPage = ({submitForm}) => {
                             style={{
                                 color:"red",
                             }}
-                            className="error">{errors.username}</p>}
+                            className="error">{errors.username}</p>}ii
                             <LoginField>
                             <InputIcon>
                                 <FaLock />

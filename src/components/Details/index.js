@@ -26,7 +26,7 @@ const Details = () => {
                                 <FaTwitter />
                             </SocialIconLink>
                         <DetailsH2>Marketing & Communication</DetailsH2>
-                        <DetailsP>We help reduce your fees and increase your overall revenue.</DetailsP>
+                        <DetailsP>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</DetailsP>
                     </DetailsCard>
 
                     <DetailsCard>
@@ -34,7 +34,7 @@ const Details = () => {
                                 <FaBeer />
                             </SocialIconLink>
                         <DetailsH2>Design & Development</DetailsH2>
-                        <DetailsP>We help reduce your fees and increase your overall revenue.</DetailsP>
+                        <DetailsP>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</DetailsP>
                     </DetailsCard>
 
                     <DetailsCard>
@@ -42,7 +42,7 @@ const Details = () => {
                                 <FaCodepen />
                             </SocialIconLink>
                         <DetailsH2>Finance Management</DetailsH2>
-                        <DetailsP>We help reduce your fees and increase your overall revenue.</DetailsP>
+                        <DetailsP>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</DetailsP>
                     </DetailsCard>
             </DetailsWrapper>
 
@@ -52,7 +52,7 @@ const Details = () => {
                                 <FaFacebook />
                             </SocialIconLink>
                         <DetailsH2>Armforce Guide & Security</DetailsH2>
-                        <DetailsP>We help reduce your fees and increase your overall revenue.</DetailsP>
+                        <DetailsP>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</DetailsP>
                     </DetailsCard>
 
 
@@ -61,7 +61,7 @@ const Details = () => {
                                 <FaCodepen />
                             </SocialIconLink>
                         <DetailsH2>Customer Support Care</DetailsH2>
-                        <DetailsP>We help reduce your fees and increase your overall revenue.</DetailsP>
+                        <DetailsP>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</DetailsP>
                     </DetailsCard>
 
                     <DetailsCard>
@@ -69,7 +69,7 @@ const Details = () => {
                                 <FaGg />
                             </SocialIconLink>
                         <DetailsH2>Project Management</DetailsH2>
-                        <DetailsP>We help reduce your fees and increase your overall revenue.</DetailsP>
+                        <DetailsP>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</DetailsP>
                     </DetailsCard>
             </DetailsWrapper>
 

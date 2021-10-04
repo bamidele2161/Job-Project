@@ -6,6 +6,8 @@ import Footer from '../components/Footer'
 import Sidebar from '../components/SideBar'
 import Landing from '../components/Landing'
 import Swipers from '../components/Swipers'
+import {Two, Three} from '../components/AboutPage/data'
+import AboutPage from '../components/AboutPage'
 
 
 const Home = () => {
@@ -19,6 +21,8 @@ const Home = () => {
       <Navbar toggle={toggle} />
       <Landing />
       <Details />
+      <AboutPage  {...Two} />
+      <AboutPage  {...Three} />
       <Swipers />
       <Footer />
     </div>

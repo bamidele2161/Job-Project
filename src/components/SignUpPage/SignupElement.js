@@ -32,8 +32,7 @@ export const LoginForm = styled.form`
     justify-content: center;
     align-items: center;
     margin-top: 3rem;
-    width: 415px;
-    padding: 2.5rem;
+    padding: 3rem;
     box-shadow: 5px 5px 50px 5px #e5e4e2;
     @media only screen and (max-width: 600px) {
         width: 300px;
@@ -49,16 +48,16 @@ export const LoginField= styled.div`
     display: grid;
     grid-template-columns: 15% 85%;
     background: #ebe6fc;
-    border-radius: 0.5rem;
-    width: 100%;
     height: 40px;
-    max-width: 400px;
+    max-width: 350px;
     padding: 0.4rem;
     margin: 1.5rem 0;
+    border-radius: 0.5rem;
+
 
 `
 export const LoginInput = styled.input`
-    font-size: 1.2rem;
+    font-size: 1.1rem;
     background: none;
     border: none;
     line-height: 1;
@@ -75,10 +74,10 @@ export const LoginButton = styled.div`
     display: flex;
 `
 export const Btn = styled.button`
-    border-radius: 50px;
-    margin: 50px 0;
+    border-radius: 10px;
+    margin: 30px 0;
     padding: 3 2rem;
-    width: 400px;
+    width: 350px;
     height: 3rem;
     cursor: pointer;
     color: white;
